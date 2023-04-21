@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first Website - Page 3</title>
+</head>
+<body style="background-color: #f5add7;">
+    <div>
+        <a href="https://github.com/PpekKOX" title="Redirects you to my Github Page">
+            <h1>This is my first Website</h1>
+        </a>
+    </div>
+
+    <hr>
+
+    <div style="background-color: black; color: darkorange;">
+        <h3>Second page contains:</h3>
+        <ul>
+            <li><span style="color: blueviolet;">Form</span> to be filled out with the following:</li>
+                <ol>
+                    <li>First Name</li>
+                    <li>Last Name</li>
+                    <li>E-Mail</li>
+                    <li>Password</li>
+                    <li>Phone</li>
+                    <li>Birth-date</li>
+                    <li>Quantity of items for example to sell</li>
+                    <li>Title</li>
+                    <li>Payment methods</li>
+                    <li>Checkbox</li>
+                    <li>Reset / Submit Button</li>
+                </ol>
+        </ul>        
+    </div>
+    
+    <br>
+
+    <form action="action_page.php" method="POST">
+        <div>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" placeholder="First name">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" placeholder="Last name">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="example@email.com">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="pass">Password:</label>
+            <input type="password" id="pass" name="pass" maxlength="12">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" placeholder="111-222-333">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="bdate">Birthdate:</label>
+            <input type="date" id="bdate" name="bdate">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="99">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="title"><b>Title:</b></label>
+
+            <label>Mr.</label>
+            <input type="radio" name="title" value="Mr.">
+
+            <label>Mrs.</label>
+            <input type="radio" name="title" value="Mrs.">
+
+            <label>PhD.</label>
+            <input type="radio" name="title" value="PhD.">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="payment">Payment method:</label>
+            <select id="payment" name="payment">
+                <option value="visa">Visa</option>
+                <option value="PayPal">PayPal</option>
+                <option value="Dogecoin">Dogecoin</option>
+                <option value="Sex">Sex</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="subscribe">Subscribe:</label>
+            <input type="checkbox" id="subscribe" name="subscribe">
+        </div>
+
+        <br>
+
+        <div>
+            <input type="reset" value="Reset">
+        </div>
+
+        <br>
+
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+
+    <br>
+
+    <div>
+        <a href="page2.html">
+            <button style="background-color: rgb(96, 96, 143);color: chartreuse; border-radius: 5px;">Back to Page 2</button>
+        </a>
+    </div>
+</body>
+</html>
